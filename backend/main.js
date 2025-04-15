@@ -122,7 +122,4 @@ app.get("/v1/rentals/list", (request, response) => {
             )
         });
     }
-
 })
-
-

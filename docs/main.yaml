@@ -1,0 +1,15 @@
+openapi: '3.1.1'
+info:
+  title: Book Store
+  version: '1.0'
+servers:
+  - url: https://fluffy-robot-w4r6wg6pv4x35r6v-3001.app.github.dev/
+    
+       
+paths:
+  /v1/rentals/list:
+    get:
+      description: One stop destination for any book you read
+      responses:
+        '200':
+          description: OK
